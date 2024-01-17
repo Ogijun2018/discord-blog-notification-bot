@@ -1,3 +1,4 @@
+const keep_alive = require("./keep_alive.js");
 const blogCommand = require('./commands/blog.js');
 const { Client, Events, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
